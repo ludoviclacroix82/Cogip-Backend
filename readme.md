@@ -4,10 +4,9 @@
 Ce projet est une API de facturation développée en PHP, utilisant le routeur Bramus pour gérer les routes. L'API permet de créer, lire, mettre à jour et supprimer des factures.
 
 ## Fonctionnalités
-- **Créer une facture** : Permet de créer une nouvelle facture.
-- **Lire une facture** : Permet de récupérer les détails d'une facture existante.
-- **Mettre à jour une facture** : Permet de modifier les informations d'une facture existante.
-- **Supprimer une facture** : Permet de supprimer une facture existante.
+- **Factures** : Créer, lire, mettre à jour et supprimer des factures.
+- **Compagnies** : Créer, lire, mettre à jour et supprimer des compagnies.
+- **Contacts** : Créer, lire, mettre à jour et supprimer des contacts.
 
 ## Prérequis
 - PHP 7.4 ou supérieur
@@ -27,9 +26,13 @@ Pour plus de détails sur les routes et les fonctionnalités de l'API, veuillez 
 
 ## Technologies utilisées
 - PHP
+- POO (Programmation Orientée Objet)
+- MVC 
+- Namespace
 - MySQL
 - Composer
 - Bramus Router
+- Filp/Whoops
 - Docker
 
 ## Contributor
